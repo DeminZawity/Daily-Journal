@@ -5,37 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daily Journal</title>
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
   </head>
   <body>
     <header>
-      <img src="DailyJournalLogo.png" alt="Daily Journal Logo" />
-      <h2>Demin Zawity</h2>
+      <img src="PageLogo.png" alt="Daily Journal Logo" class="image" />
+      <section id="header">
+        <h2 class="headerTwo">Daily Journal</h2>
+        <h4 class="headerThree">Demin Zawity</h4>
+      </section>
     </header>
+    <p class="sub">New Entry</p>
     <main id="container">
-      <form class="entryForm">
-        <fieldset>
+      <form>
+        <div class="label">
           <label for="entryDate">Date of entry</label>
-          <input type="date" name="entryDate" class="entryForm__date" />
-        </fieldset>
-        <fieldset>
+        </div>
+        <div class="box date">
+          <input type="date" name="entryDate" class="input" />
+        </div>
+        <div class="label">
           <label for="conceptsCovered">Concepts Covered</label>
-          <input type="text" name="Concepts Covered" class="concepts" />
-        </fieldset>
-        <fieldset>
+        </div>
+        <div class="box concepts">
+          <input type="text" name="Concepts Covered" class="input" />
+        </div>
+        <div class="label">
           <label for="journalEntry">Journal Entry</label>
-          <textarea type="textarea" name="Journal Entry" class="journal"></textarea>
-        </fieldset>
-        <fieldset>
+        </div>
+        <div class="box entry">
+          <textarea type="textarea" name="Journal Entry" class="input"></textarea>
+        </div>
+        <div class="label">
           <label for="moodForTheDay">Mood For The Day</label>
-          <select name="moodForTheDay" id="moodForTheDay">
+        </div>
+        <div class="box mood">
+          <select name="moodForTheDay" class="input">
             <option value=""></option>
             <option value="Happy">Happy</option>
             <option value="Fine">Fine</option>
             <option value="Sad">Sad</option>
           </select>
-        </fieldset>
-        <button type="button">Record Journal Entry</button>
+        </div>
+        <div class="box record">
+          <button type="button" class="button">Record Journal Entry</button>
+        </div>
       </form>
       <article id="entries"></article>
     </main>
