@@ -15,6 +15,13 @@ const journalEntries = [
   },
   {
     id: 3,
+    date: "07/16/2022",
+    concept: "Starting HTML and CSS",
+    entry: "Today Lynn started showing us HTML and CSS. It was a little but confusing, but I think I will be ok!",
+    mood: "Fine",
+  },
+  {
+    id: 4,
     date: "07/19/2022",
     concept: "Yin Yang Pt. 1",
     entry:
@@ -22,11 +29,25 @@ const journalEntries = [
     mood: "Happy",
   },
   {
-    id: 4,
+    id: 5,
     date: "07/26/2022",
     concept: "Yin Yang Pt. 2",
     entry: "I got my website to look SO much better! This week, Mariana and I decided to tackle the home page. I added a Nav Bar and she added a Footer. Our website is looking awesome!",
     mood: "Happy",
+  },
+  {
+    id: 6,
+    date: "07/30/2022",
+    concept: "New Group",
+    entry: "Today I got a new group! Everyone seems really smart and nice! I am so excited to work with them even though I miss my old group!",
+    mood: "Happy",
+  },
+  {
+    id: 7,
+    date: "08/02/2022",
+    concept: "For Loops",
+    entry: "for loops suck and they give me headaches",
+    mood: "Sad",
   },
 ];
 
@@ -40,4 +61,10 @@ const journalEntries = [
 
 // for (const entries of journalEntries) {
 //   console.log(entries.concept)
+// }
+
+// for (let entries of journalEntries) {
+//   if (entries.id % 2 !== 0) {
+//     console.log(entries);
+//   }
 // }
