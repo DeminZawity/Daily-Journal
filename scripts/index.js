@@ -53,10 +53,14 @@ const journalEntries = [
 
 // for (const entries of journalEntries) {
 //   if (entries.id > 0) {
-//     console.log(entries);
+//   console.log(entries);
 //   } else {
 //     console.log("ERROR");
 //   }
+// }
+
+// for (const entries of journalEntries) {
+//   console.log(entries);
 // }
 
 // for (const entries of journalEntries) {
