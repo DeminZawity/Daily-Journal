@@ -17,25 +17,31 @@
     </header>
     <h4 class="sub">New Entry</h4>
     <main id="container">
-      <form>
+      <div class="card">
         <div class="label">
           <label for="entryDate">Date of entry</label>
         </div>
         <div class="box date">
           <input type="date" name="entryDate" class="input" />
         </div>
+      </div>
+      <div class="card">
         <div class="label">
           <label for="conceptsCovered">Concepts Covered</label>
         </div>
         <div class="box concepts">
           <input type="text" name="Concepts Covered" class="input" />
         </div>
+      </div>
+      <div class="card">
         <div class="label">
           <label for="journalEntry">Journal Entry</label>
         </div>
         <div class="box entry">
           <textarea type="textarea" name="Journal Entry" class="input"></textarea>
         </div>
+      </div>
+      <div class="card">
         <div class="label">
           <label for="moodForTheDay">Mood For The Day</label>
         </div>
@@ -47,10 +53,12 @@
             <option value="Sad">Sad</option>
           </select>
         </div>
+      </div>
+      <div class="card z">
         <div class="box record">
           <button type="button" class="button">Record Journal Entry</button>
         </div>
-      </form>
+      </div>
       <article id="entries"></article>
     </main>
     <script type="module" src="/scripts/index.js" />

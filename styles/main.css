@@ -15,19 +15,23 @@ html {
   text-align: center;
 }
 #container {
+  /* border: 1px solid hotpink; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
 }
 .sub {
   padding-left: 550px;
   color: rgb(151, 151, 151);
 }
 .label {
+  /* border: 1px solid red; */
   text-align: center;
   margin-bottom: 15px;
   font-size: 15px;
 }
 .box {
+  /* border: 1px solid blue; */
   text-align: center;
   margin-bottom: 15px;
 }
@@ -38,4 +42,18 @@ html {
 }
 .button {
   background-color: rgba(125, 168, 182, 1);
+}
+.card {
+  /* border: 1px solid orange; */
+  height: 100px;
+  width: 200px;
+}
+
+.z {
+  border: 1px solid orange;
+  justify-content: center;
+  align-items: center;
+}
+.record {
+  border: 1px solid red;
 }
