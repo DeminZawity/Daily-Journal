@@ -50,25 +50,3 @@ const journalEntries = [
     mood: "Sad",
   },
 ];
-
-// for (const entries of journalEntries) {
-//   if (entries.id > 0) {
-//   console.log(entries);
-//   } else {
-//     console.log("ERROR");
-//   }
-// }
-
-// for (const entries of journalEntries) {
-//   console.log(entries);
-// }
-
-// for (const entries of journalEntries) {
-//   console.log(entries.concept)
-// }
-
-// for (let entries of journalEntries) {
-//   if (entries.id % 2 !== 0) {
-//     console.log(entries);
-//   }
-// }
