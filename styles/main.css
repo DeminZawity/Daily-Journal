@@ -1,8 +1,14 @@
 html {
-  background-color: rgb(65, 62, 62);
+  background-color: rgb(109, 160, 188);
   font-family: gilroy;
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
+}
+body {
+  /* border: 1px solid red; */
+  border-radius: 50px;
+  background-color: rgba(45, 65, 75, 0.9);
+  margin: 45px;
 }
 .image {
   display: block;
@@ -10,9 +16,13 @@ html {
   margin-right: auto;
   width: 225px;
   height: 225px;
+  /* border: 1px solid red; */
 }
+
 #header {
   text-align: center;
+  margin-bottom: 75px;
+  /* border: 1px solid blue; */
 }
 #container {
   /* border: 1px solid hotpink; */
@@ -21,8 +31,11 @@ html {
   justify-content: center;
 }
 .sub {
-  padding-left: 550px;
+  /* padding-left: 550px; */
+  /* border: 1px solid pink; */
   color: rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
 }
 .label {
   /* border: 1px solid red; */
@@ -41,19 +54,66 @@ html {
   border-radius: 5px;
 }
 .button {
-  background-color: rgba(125, 168, 182, 1);
+  background-color: rgb(133, 173, 197);
 }
 .card {
   /* border: 1px solid orange; */
   height: 100px;
   width: 200px;
+  z-index: 999;
 }
 
 .z {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
+  z-index: 58 !important;
   justify-content: center;
   align-items: center;
 }
 .record {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+}
+.CardSub {
+  color: rgb(151, 151, 151);
+  margin-left: 100px;
+}
+.jEntry {
+  /* border: 1px solid purple; */
+  background-color: rgb(91, 131, 155);
+  border-radius: 50px;
+  min-height: 400px;
+  max-height: 400px;
+  min-width: 400px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  /* justify-content: center; */
+  margin: 40px;
+}
+#entries {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid blanchedAlmond; */
+  margin: 40px;
+  justify-content: center;
+}
+.cardHeader {
+  /* border: 1px solid hotpink; */
+}
+.cardEntry {
+  /* border: 1px solid red; */
+  max-width: 350px;
+  min-width: 350px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+#entryTxtArea {
+  z-index: 999 !important;
 }
