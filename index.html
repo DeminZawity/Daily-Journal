@@ -12,10 +12,10 @@
       <img src="PageLogo.png" alt="Daily Journal Logo" class="image" />
       <section id="header">
         <h2 class="headerTwo">Daily Journal</h2>
-        <h4 class="headerThree">Demin Zawity</h4>
+        <!-- <h4 class="headerThree">Demin Zawity</h4> -->
       </section>
     </header>
-    <h4 class="sub">New Entry</h4>
+    <!-- <h4 class="sub">New Entry</h4> -->
     <main id="container">
       <div class="card">
         <div class="label">
@@ -38,7 +38,7 @@
           <label for="journalEntry">Journal Entry</label>
         </div>
         <div class="box entry">
-          <textarea type="textarea" name="Journal Entry" class="input"></textarea>
+          <textarea type="textarea" id="entryTxtArea" name="Journal Entry" class="input"></textarea>
         </div>
       </div>
       <div class="card">
@@ -59,8 +59,14 @@
           <button type="button" class="button">Record Journal Entry</button>
         </div>
       </div>
-      <article id="entries"></article>
     </main>
+    <h3 class="CardSub">Previous Entries</h3>
+    <article id="entries"></article>
+    <footer class="footer">
+      <div class="footerFixed">
+        <p>&copy; 2022 Demin Zawity</p>
+      </div>
+    </footer>
     <script type="module" src="/scripts/index.js"></script>
   </body>
 </html>
