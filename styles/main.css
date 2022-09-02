@@ -48,12 +48,27 @@ body {
   text-align: center;
   margin-bottom: 15px;
 }
-.input {
+#input {
   background-color: rgba(123, 123, 123, 1);
   color: white;
   border-radius: 5px;
 }
-.button {
+#conceptInput {
+  background-color: rgba(123, 123, 123, 1);
+  color: white;
+  border-radius: 5px;
+}
+#moodInput {
+  background-color: rgba(123, 123, 123, 1);
+  color: white;
+  border-radius: 5px;
+}
+#entryInput {
+  background-color: rgba(123, 123, 123, 1);
+  color: white;
+  border-radius: 5px;
+}
+#button {
   background-color: rgb(133, 173, 197);
 }
 .card {
@@ -79,7 +94,7 @@ body {
   color: rgb(151, 151, 151);
   margin-left: 100px;
 }
-.jEntry {
+#jEntry {
   /* border: 1px solid purple; */
   background-color: rgb(91, 131, 155);
   border-radius: 50px;
@@ -101,10 +116,10 @@ body {
   margin: 40px;
   justify-content: center;
 }
-.cardHeader {
+#cardHeader {
   /* border: 1px solid hotpink; */
 }
-.cardEntry {
+#cardEntry {
   /* border: 1px solid red; */
   max-width: 350px;
   min-width: 350px;

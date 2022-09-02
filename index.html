@@ -22,7 +22,7 @@
           <label for="entryDate">Date of entry</label>
         </div>
         <div class="box date">
-          <input type="date" name="entryDate" class="input" />
+          <input type="date" name="entryDate" id="input" />
         </div>
       </div>
       <div class="card">
@@ -30,7 +30,7 @@
           <label for="conceptsCovered">Concepts Covered</label>
         </div>
         <div class="box concepts">
-          <input type="text" name="Concepts Covered" class="input" />
+          <input type="text" name="Concepts Covered" id="conceptInput" />
         </div>
       </div>
       <div class="card">
@@ -38,7 +38,7 @@
           <label for="journalEntry">Journal Entry</label>
         </div>
         <div class="box entry">
-          <textarea type="textarea" id="entryTxtArea" name="Journal Entry" class="input"></textarea>
+          <textarea type="textarea" id="entryTxtArea" name="Journal Entry" class="entryInput"></textarea>
         </div>
       </div>
       <div class="card">
@@ -46,7 +46,7 @@
           <label for="moodForTheDay">Mood For The Day</label>
         </div>
         <div class="box mood">
-          <select name="moodForTheDay" class="input">
+          <select name="moodForTheDay" id="moodInput">
             <option value=""></option>
             <option value="Happy">Happy</option>
             <option value="Fine">Fine</option>
@@ -56,7 +56,7 @@
       </div>
       <div class="card z">
         <div class="box record">
-          <button type="button" class="button">Record Journal Entry</button>
+          <button type="button" id="button" value="button">Record Journal Entry</button>
         </div>
       </div>
     </main>

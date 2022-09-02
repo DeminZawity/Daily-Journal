@@ -51,7 +51,19 @@ const journalEntries = [
   },
 ];
 
+const getNewEntryId = () => {
+  let highestOrderId = journalEntries.sort((a, b) => b.id - a.id)[0].id;
+  return highestOrderId + 1;
+};
+
 export const getQuotes = () => {
-  const copyOfQuotes = journalEntries;
-  return copyOfQuotes;
+  return journalEntries.map((entries) => ({ ...entries }));
+};
+
+export const addNewJournalEntry = (order) => {
+  const newId = getNewEntryId();
+  order.id = newId;
+  // need to add logic
+  journalEntries.push(order);
+  document.dispatchEvent(new CustomEvent("stateChanged"));
 };
