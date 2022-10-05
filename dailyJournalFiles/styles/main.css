@@ -1,3 +1,7 @@
+/* @font-face {
+  font-family: Gilroy-Bold;
+  src: url(linkToFontFile.woff);
+} */
 html {
   background-color: rgb(109, 160, 188);
   font-family: gilroy;
@@ -69,7 +73,16 @@ body {
   border-radius: 5px;
 }
 #button {
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
   background-color: rgb(133, 173, 197);
+}
+
+#button:hover {
+  cursor: pointer;
+  border: 2px solid rgb(133, 173, 197);
 }
 .card {
   /* border: 1px solid orange; */
@@ -131,4 +144,7 @@ body {
 
 #entryTxtArea {
   z-index: 999 !important;
+  background: rgba(123, 123, 123, 1);
+  outline: none;
+  color: white;
 }
